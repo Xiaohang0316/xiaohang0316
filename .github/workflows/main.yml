@@ -10,7 +10,7 @@ on:
 
 defaults:
   run: |
-    echo secrets.DEVCARD_ID
+    echo ${{ secrets.DEVCARD_ID }}
 jobs:
   devcard:
     runs-on: ubuntu-latest
