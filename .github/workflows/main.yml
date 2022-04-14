@@ -7,10 +7,6 @@ on:
       - main
   schedule:
     - cron: "0 0 * * *"
-
-defaults:
-  run: |
-    echo ${{ secrets.DEVCARD_ID }}
 jobs:
   devcard:
     runs-on: ubuntu-latest
