@@ -25,6 +25,11 @@
 
 <!-- ./STATS  -->
 <div align="center"><img height="auto" width="91%" src="https://github-readme-streak-stats.herokuapp.com/?user=xiaohang0316&theme=black-ice&hide_border=true&stroke=0000&background=0D1117&ring=00bfbf&fire=00bfbf&currStreakLabel=00bfbf" alt="xiaohang" /></div>
+
+<div align="center"> 
+
+<a  href="https://app.daily.dev/Xiaohang"><img src="https://api.daily.dev/devcards/282a0a211ec3442b82b9c96e858746b0.png?r=j9t" width="400" alt="Xiaohang's Dev Card"/></a>
+</div>
 <!-- <div align="center"   >   
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
   <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>
@@ -81,10 +86,7 @@
 ![React Native](https://img.shields.io/badge/-React_native-0D1117?style=for-the-badge&logo=react&labelColor=0D1117)&nbsp;
  -->
 
-<div align="center">
-<br><p align="centre"><b>Visitors Count</b></p>  
-<p align="center"><img align="center" src="https://profile-counter.glitch.me/{xiaohang0316}/count.svg" /></p> 
-<br></div>
+
 
 <!-- <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/> -->
 
@@ -92,3 +94,10 @@
 xiaohang0316/xiaohang0316 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+
+
+<div align="center">
+<br><p align="centre"><b>Visitors Count</b></p>  
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{xiaohang0316}/count.svg" /></p> 
+<br></div>
