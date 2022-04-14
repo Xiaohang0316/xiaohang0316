@@ -28,7 +28,7 @@
 
 <div align="center"> 
 
-<a  href="https://app.daily.dev/Xiaohang"><img src="https://api.daily.dev/devcards/282a0a211ec3442b82b9c96e858746b0.png?r=j9t" width="400" alt="Xiaohang's Dev Card"/></a>
+<a  href="https://app.daily.dev/Xiaohang"><img src="https://github.com/Xiaohang0316/xiaohang0316/blob/master/devcard.svg" width="400" alt="Xiaohang's Dev Card"/></a>
 </div>
 <!-- <div align="center"   >   
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
