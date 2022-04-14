@@ -8,8 +8,8 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
--run:
-  command: |
+defaults:
+  run: |
     echo secrets.DEVCARD_ID
 jobs:
   devcard:
