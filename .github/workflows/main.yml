@@ -8,6 +8,9 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
+-run:
+  command: |
+    echo secrets.DEVCARD_ID
 jobs:
   devcard:
     runs-on: ubuntu-latest
