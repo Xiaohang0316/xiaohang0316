@@ -99,5 +99,5 @@ You can click the Preview link to take a look at your changes.
 
 <div align="center">
 <br><p align="centre"><b>Visitors Count</b></p>  
-<p align="center"><img align="center" src="https://profile-counter.glitch.me/{xiaohang0316}/count.svg" /></p> 
+<!-- <p align="center"><img align="center" src="https://profile-counter.glitch.me/{xiaohang0316}/count.svg" /></p>  -->
 <br></div>
