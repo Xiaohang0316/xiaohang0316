@@ -28,7 +28,7 @@
 
 <div align="center"> 
 
-<a  href="https://app.daily.dev/Xiaohang"><img src="https://github.com/Xiaohang0316/xiaohang0316/blob/master/devcard.svg" width="400" alt="Xiaohang's Dev Card"/></a>
+<!-- <a  href="https://app.daily.dev/Xiaohang"><img src="https://github.com/Xiaohang0316/xiaohang0316/blob/master/devcard.svg" width="400" alt="Xiaohang's Dev Card"/></a> -->
 </div>
 <!-- <div align="center"   >   
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
@@ -99,5 +99,5 @@ You can click the Preview link to take a look at your changes.
 
 <div align="center">
 <br><p align="centre"><b>Visitors Count</b></p>  
-<!-- <p align="center"><img align="center" src="https://profile-counter.glitch.me/{xiaohang0316}/count.svg" /></p>  -->
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{xiaohang0316}/count.svg" /></p> 
 <br></div>
