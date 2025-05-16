@@ -1,133 +1,33 @@
 
 
-<div>
-<style>
-    body {
-      background: #fff0f5;
-      font-family: 'Courier New', Courier, monospace;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .container {
-      border: 4px solid #ff69b4;
-      padding: 40px;
-      background-color: #fffafc;
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-      box-shadow: 8px 8px 0 #ff69b4;
-      border-radius: 16px;
-    }
-    .message-block {
-      display: flex;
-      align-items: flex-start;
-      gap: 20px;
-    }
-    .face {
-      width: 60px;
-      height: 60px;
-      background-color: #fffbe7;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      border: 2px solid #000;
-      box-shadow: 2px 2px 0 #888;
-      border-radius: 8px;
-      position: relative;
-      animation: bounce 2s infinite;
-    }
-    @keyframes bounce {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-5px);
-      }
-    }
-    .face-eyes {
-      display: flex;
-      gap: 10px;
-    }
-    .eye {
-      width: 10px;
-      height: 15px;
-      background-color: black;
-      border-radius: 3px;
-      animation: blink 4s infinite;
-    }
-    @keyframes blink {
-      0%, 90%, 100% {
-        height: 15px;
-      }
-      95% {
-        height: 3px;
-      }
-    }
-    .mouth {
-      width: 30px;
-      height: 6px;
-      background-color: #ff4d6d;
-      margin-top: 5px;
-      border-radius: 3px;
-    }
-    .speech-bubble {
-      border: 3px dashed #ff69b4;
-      padding: 12px 16px;
-      background: #ffffff;
-      position: relative;
-      max-width: 500px;
-      box-shadow: 4px 4px 0 #ff69b4;
-      line-height: 1.6;
-      border-radius: 12px;
-    }
-    .speech-bubble::after {
-      content: "";
-      position: absolute;
-      left: 20px;
-      bottom: -10px;
-      width: 0;
-      height: 0;
-      border: 10px solid transparent;
-      border-top: 10px solid #ff69b4;
-      border-bottom: 0;
-    }
-  </style>
-  
-<div class="container">
-  <div class="message-block">
-    <div class="face">
-      <div class="face-eyes">
-        <div class="eye"></div>
-        <div class="eye"></div>
+<div style="border: 4px solid #ff69b4; padding: 40px; background-color: #fffafc; display: flex; flex-direction: column; gap: 40px; box-shadow: 8px 8px 0 #ff69b4; border-radius: 16px;">
+    <div style="display: flex; align-items: flex-start; gap: 20px;">
+      <div style="width: 60px; height: 60px; background-color: #fffbe7; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 2px solid #000; box-shadow: 2px 2px 0 #888; border-radius: 8px; position: relative; animation: bounce 2s infinite;">
+        <div style="display: flex; gap: 10px;">
+          <div style="width: 10px; height: 15px; background-color: black; border-radius: 3px; animation: blink 4s infinite;"></div>
+          <div style="width: 10px; height: 15px; background-color: black; border-radius: 3px; animation: blink 4s infinite;"></div>
+        </div>
+        <div style="width: 30px; height: 6px; background-color: #ff4d6d; margin-top: 5px; border-radius: 3px;"></div>
       </div>
-      <div class="mouth"></div>
+      <div style="border: 3px dashed #ff69b4; padding: 12px 16px; background: #ffffff; position: relative; max-width: 500px; box-shadow: 4px 4px 0 #ff69b4; line-height: 1.6; border-radius: 12px;">
+        Hello Visitor
+        <div style="content: ''; position: absolute; left: 20px; bottom: -10px; width: 0; height: 0; border: 10px solid transparent; border-top: 10px solid #ff69b4; border-bottom: 0;"></div>
+      </div>
     </div>
-    <div class="speech-bubble">
-      Hello Visitor
+    <div style="display: flex; align-items: flex-start; gap: 20px;">
+      <div style="width: 60px; height: 60px; background-color: #fffbe7; display: flex; flex-direction: column; align-items: center; justify-content: center; border: 2px solid #000; box-shadow: 2px 2px 0 #888; border-radius: 8px; position: relative; animation: bounce 2s infinite;">
+        <div style="display: flex; gap: 10px;">
+          <div style="width: 10px; height: 15px; background-color: black; border-radius: 3px; animation: blink 4s infinite;"></div>
+          <div style="width: 10px; height: 15px; background-color: black; border-radius: 3px; animation: blink 4s infinite;"></div>
+        </div>
+        <div style="width: 30px; height: 6px; background-color: #ff4d6d; margin-top: 5px; border-radius: 3px;"></div>
+      </div>
+      <div style="border: 3px dashed #ff69b4; padding: 12px 16px; background: #ffffff; position: relative; max-width: 500px; box-shadow: 4px 4px 0 #ff69b4; line-height: 1.6; border-radius: 12px;">
+        Good morning. Thou hast had a good night's sleep, I hope.
+        <div style="content: ''; position: absolute; left: 20px; bottom: -10px; width: 0; height: 0; border: 10px solid transparent; border-top: 10px solid #ff69b4; border-bottom: 0;"></div>
+      </div>
     </div>
   </div>
-  <div class="message-block">
-    <div class="face">
-      <div class="face-eyes">
-        <div class="eye"></div>
-        <div class="eye"></div>
-      </div>
-      <div class="mouth"></div>
-    </div>
-    <div class="speech-bubble">
-      Good morning. Thou hast had a good night's sleep, I hope.
-    </div>
-  </div>
-</div>
-</div>
-
-
-
-
 
 
 
@@ -156,10 +56,10 @@
 </div> 
 
 <!-- ./STAT -->
-<div align="center">  
+<!-- <div align="center">  
   <img width="49%" height="auto" src="https://github-readme-stats.vercel.app/api?username=xiaohang0316&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="xiaohang0316 github stats" /> 
   <img width="41%" height="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaohang0316&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
-</div>
+</div> -->
 
 <!-- ./STATS  -->
 <div align="center"><img height="auto" width="91%" src="https://github-readme-streak-stats.herokuapp.com/?user=xiaohang0316&theme=black-ice&hide_border=true&stroke=0000&background=0D1117&ring=00bfbf&fire=00bfbf&currStreakLabel=00bfbf" alt="xiaohang" /></div>
