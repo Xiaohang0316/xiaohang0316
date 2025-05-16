@@ -1,5 +1,6 @@
 
 
+<div>
 <style>
     body {
       background: #fff0f5;
@@ -95,36 +96,34 @@
       border-bottom: 0;
     }
   </style>
-  <div class="container">
-    <div class="message-block">
-      <div class="face">
-        <div class="face-eyes">
-          <div class="eye"></div>
-          <div class="eye"></div>
-        </div>
-        <div class="mouth"></div>
+  
+<div class="container">
+  <div class="message-block">
+    <div class="face">
+      <div class="face-eyes">
+        <div class="eye"></div>
+        <div class="eye"></div>
       </div>
-      <div class="speech-bubble">
-        Hello Visitor
-      </div>
+      <div class="mouth"></div>
     </div>
-    <div class="message-block">
-      <div class="face">
-        <div class="face-eyes">
-          <div class="eye"></div>
-          <div class="eye"></div>
-        </div>
-        <div class="mouth"></div>
-      </div>
-      <div class="speech-bubble">
-        Good morning. Thou hast had a good night's sleep, I hope.
-      </div>
+    <div class="speech-bubble">
+      Hello Visitor
     </div>
   </div>
-
-
-
-
+  <div class="message-block">
+    <div class="face">
+      <div class="face-eyes">
+        <div class="eye"></div>
+        <div class="eye"></div>
+      </div>
+      <div class="mouth"></div>
+    </div>
+    <div class="speech-bubble">
+      Good morning. Thou hast had a good night's sleep, I hope.
+    </div>
+  </div>
+</div>
+</div>
 
 
 
