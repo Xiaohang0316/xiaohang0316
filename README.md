@@ -1,11 +1,6 @@
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Pixel Greeting UI</title>
-  <style>
+<style>
     body {
       background: #fff0f5;
       font-family: 'Courier New', Courier, monospace;
@@ -100,8 +95,6 @@
       border-bottom: 0;
     }
   </style>
-</head>
-<body>
   <div class="container">
     <div class="message-block">
       <div class="face">
@@ -128,9 +121,6 @@
       </div>
     </div>
   </div>
-</body>
-</html>
-
 
 
 
